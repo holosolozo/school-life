@@ -15,6 +15,7 @@
 ## 3.1 시스템 구성
 ![image](https://user-images.githubusercontent.com/84116509/120065076-741d9080-c0aa-11eb-916d-035580e9b357.png)
 ## 3.2 동작 방식
+### 시퀀스 다이어그램
 ![image](https://user-images.githubusercontent.com/84116509/120067223-628db600-c0b5-11eb-998c-a1a7c65f2dae.png)
 ## 3.3 주요기능
 로그인 기능: 사용자에게 로그인 정보 값을 입력받아 올바르지 않을 시에는 오류메시지를 출력하고 올바를 시에는 웹 페이지로 연결된다.<br>
