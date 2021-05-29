@@ -13,7 +13,7 @@
 
 # 3. 전체 설명
 ## 3.1 시스템 구성
-![image](https://user-images.githubusercontent.com/84116509/120064643-391a5d80-c0a8-11eb-8573-bc1afb12e1d2.png)
+![image](https://user-images.githubusercontent.com/84116509/120065010-299c1400-c0aa-11eb-8391-cc967c2b22b5.png)
 ## 3.2 주요기능
 로그인 기능: 사용자에게 로그인 정보 값을 입력받아 올바르지 않을 시에는 오류메시지를 출력하고 올바를 시에는 웹 페이지로 연결된다.<br>
 시간표 기능: 과목 이름과 과목 시간의 값을 입력받으면 db를 통해 값을 저장한 뒤 시간표 화면에 출력한다.<br>
