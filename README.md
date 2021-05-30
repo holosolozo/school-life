@@ -18,4 +18,4 @@
 ### Sequence Diagram
 ![image](https://user-images.githubusercontent.com/84116509/120067223-628db600-c0b5-11eb-998c-a1a7c65f2dae.png)
 ## 3.3 주요기능
-![image](https://user-images.githubusercontent.com/74487628/120093967-8f46d980-c158-11eb-8b1f-690794977bf2.png)
+![image](https://user-images.githubusercontent.com/74487628/120094052-0e3c1200-c159-11eb-8654-e3f323ea0bdd.png)
