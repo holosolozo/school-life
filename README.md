@@ -17,7 +17,7 @@
 ## 3.2 동작 방식
 ### Sequence Diagram
 ![image](https://user-images.githubusercontent.com/84116509/120067223-628db600-c0b5-11eb-998c-a1a7c65f2dae.png)
-<br><br><br>
+<br><br>
 ![image](https://user-images.githubusercontent.com/84116509/120833365-ab091000-c59c-11eb-9f7f-35777a8f44be.png)
 
 ## 3.3 주요기능
