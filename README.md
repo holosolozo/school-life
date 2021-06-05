@@ -11,7 +11,7 @@
 ## Gantt Chart
 ![image](https://user-images.githubusercontent.com/84116509/119257865-30d2a600-bc02-11eb-9e93-d62cd8ed1cb3.png)
 ## 2.6 설계와 구현상 제약 조건
-∙ 반드시 사용해야 할 기술 : node.js
+∙ 반드시 사용해야 할 기술 : node.js <br>
 ∙ 설계 도구: powerpoint
 ∙ 개발 도구: JDK, Eclipse, Github, JRE, JDBC
 ∙ 개발 언어: Java
