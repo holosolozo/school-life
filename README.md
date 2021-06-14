@@ -27,6 +27,8 @@
 ![image](https://user-images.githubusercontent.com/84116509/120833562-e4da1680-c59c-11eb-9f79-6fd7cc22a979.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/84116509/121890298-244ef280-cd55-11eb-9114-01064d554998.png)
+<br><br>
+![image](https://user-images.githubusercontent.com/84116509/121890735-a5a68500-cd55-11eb-960e-cb46317e0308.png)
 
 
 ## 3.3 주요기능
