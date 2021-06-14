@@ -25,6 +25,9 @@
 ![image](https://user-images.githubusercontent.com/84116509/120067223-628db600-c0b5-11eb-998c-a1a7c65f2dae.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/84116509/120833562-e4da1680-c59c-11eb-9f79-6fd7cc22a979.png)
+<br><br>
+![image](https://user-images.githubusercontent.com/84116509/121890298-244ef280-cd55-11eb-9114-01064d554998.png)
+
 
 ## 3.3 주요기능
 ![image](https://user-images.githubusercontent.com/74487628/120094097-578c6180-c159-11eb-9245-867c462c2f21.png)
