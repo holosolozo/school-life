@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+body {
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+div.main{
+	margin:20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height:660px;
+	background-color: LightSteelBlue;
+}
+div.bbstitle{
+	width:90%;
+}
+
+div.bbscontent{
+	margin:10px;
+	width:90%;
+	height:550px;
+}

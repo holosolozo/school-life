@@ -1,0 +1,62 @@
+@charset "EUC-KR";
+body{
+        font-family:"¸¼Àº °íµñ";
+}
+table.type11 {
+  width: 70%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  line-height: 1;
+  margin: 10px 10px;
+}
+div.type{
+  width: 85%;
+}
+table.type11 th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+  background: LightSteelBlue ;
+}
+
+table.type11 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
+table.type {
+  text-align: right;
+}
+table.type td {
+  width: 155px;
+  padding: 10px;
+}
+    #divPaging {
+        clear:both; 
+        margin:0 auto; 
+        width:220px; 
+        height:50px;
+}
+
+    #divPaging > div {
+       	float:left;
+        width: 30px;
+        margin:0 auto;
+        text-align:center;
+}
+
+    #liSearchOption {clear:both;}
+    #liSearchOption > div {
+        margin:0 auto; 
+        margin-top: 30px; 
+        width:auto; 
+        height:100px;
+
+}
+
+    .left {
+        text-align : left;
+}
