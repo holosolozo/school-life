@@ -27,6 +27,10 @@
 **메모장**<br>
 ∙ 자신에게 필요한 내용들은 저장할 수 있는 메모장 기능<br>
 ∙ 저장된 내용들은 DB에 저장<br>
+##2.5 사용자 프로파일
+본 프로그램의 주요 사용자는 20대 대학생 사용자들이다. 
+![image](https://user-images.githubusercontent.com/84116509/122416730-f02d3900-cfc3-11eb-9525-c64fc4ef0d2b.png)
+
 ## 2.6 설계와 구현상 제약 조건
 ∙ 반드시 사용해야 할 기술 : node.js <br>
 ∙ 설계 도구: powerpoint <br>
