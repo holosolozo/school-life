@@ -29,9 +29,8 @@
 ∙ 저장된 내용들은 DB에 저장<br>
 ## 2.5 사용자 프로파일
 - 본 프로그램의 주요 사용자는 20대 대학생 사용자들이다. 
-![image](https://user-images.githubusercontent.com/84116509/122416730-f02d3900-cfc3-11eb-9525-c64fc4ef0d2b.png)
-<br>
-![image](https://user-images.githubusercontent.com/84116509/122420318-90845d00-cfc6-11eb-9596-c3ca188d047c.png)
+![image](https://user-images.githubusercontent.com/84116509/122416730-f02d3900-cfc3-11eb-9525-c64fc4ef0d2b.png) <br>
+![image](https://user-images.githubusercontent.com/84116509/122420528-b873c080-cfc6-11eb-9980-4265f33d5a12.png)
 
 ## 2.6 설계와 구현상 제약 조건
 ∙ 반드시 사용해야 할 기술 : node.js <br>
