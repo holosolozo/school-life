@@ -28,8 +28,6 @@
 
 ## 3.3 주요기능
 ![image](https://user-images.githubusercontent.com/74487628/120094097-578c6180-c159-11eb-9245-867c462c2f21.png)
-
-## 3.4 주요기능
 **로그인**<br>
 ∙ 회원가입을 통해 등록한 ID/PW를 통해 로그인 할 수 있는 기능<br>
 ∙ ID/PW는 DB에 저장<br>
@@ -46,12 +44,12 @@
 **메모장**<br>
 ∙ 자신에게 필요한 내용들은 저장할 수 있는 메모장 기능<br>
 ∙ 저장된 내용들은 DB에 저장<br>
-## 3.5 사용자 프로파일
+## 3.4 사용자 프로파일
 - 본 프로그램의 주요 사용자는 20대 대학생 사용자들이다. 
 ![image](https://user-images.githubusercontent.com/84116509/122416730-f02d3900-cfc3-11eb-9525-c64fc4ef0d2b.png) <br>
 ![image](https://user-images.githubusercontent.com/84116509/122420528-b873c080-cfc6-11eb-9980-4265f33d5a12.png)
 
-## 3.6 설계와 구현상 제약 조건
+## 3.5 설계와 구현상 제약 조건
 ∙ 반드시 사용해야 할 기술 : node.js <br>
 ∙ 설계 도구: powerpoint <br>
 ∙ 개발 도구: JDK, Eclipse, Github, JRE, JDBC <br>
@@ -59,7 +57,7 @@
 ∙ 데이터베이스: Oracle SQL Developer <br>
 ∙ 준수해야할 개발 규칙: 프로그래밍 가이드, 오류코드 가이드
 <br>
-## 3.7 가정과 종속 관계
+## 3.6 가정과 종속 관계
 **가정**<br>
 ∙ 웹브라우저를 통해 서비스한다.<br>
 ∙ 회원정보 및 게시글은 DB를 통해 저장을 한다.<br>
