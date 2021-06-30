@@ -24,7 +24,7 @@
     
       <body> 
 
-      <!-- 여기서부터 main메뉴바 -->
+      <!-- main메뉴 -->
       <header>
        <div class="header_container">
         <div class="logo_container">
@@ -96,7 +96,7 @@
 <!-- 여기까지 main메뉴바 -->
    
    <div class="main_container"> 
-   <div class="conA"> <!-- 무슨사진 넣징.. -->
+   <div class="conA"> <!-- 슬라이드 이미지 -->
    <div class="slide img1"><img width="100%" height="100%" src="img/slide1.png" alt="=슬기로운 학교생활"></div>
    <div class="slide img2"><img width="100%" height="100%" src="img/slide2.png" alt="=슬기로운 학교생활"></div>
    <div class="slide img3"><img width="100%" height="100%" src="img/slide3.PNG" alt="=슬기로운 학교생활"></div> 
