@@ -8,7 +8,7 @@
  table a:link { color: #369; text-decoration: underline;}
  table a:visited { color: #369; text-decoration: underline;}
 </style>
-  <!-- link ¼±¾ğ --> 
+  <!-- link ì„ ì–¸ --> 
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="style_index.css"> 
    <style>
@@ -16,7 +16,7 @@
  		 font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
 	}
   </style>
-   <!-- script ¼±¾ğ --> 
+   <!-- script ì„ ì–¸ --> 
    <script src="https://kit.fontawesome.com/e1bd1cb2a5.js">
    </script> <script src="https://code.jquery.com/jquery-3.4.1.js">
    </script> <script src="script.js">
@@ -24,7 +24,7 @@
 <link rel='stylesheet' href="boardstyle.css" />
 
 <meta charset="EUC-KR">
-<title>ÀÚÀ¯°Ô½ÃÆÇ</title>
+<title>ììœ ê²Œì‹œíŒ</title>
 </head>
 <%
 	String userID = null;
@@ -36,7 +36,7 @@
 	if(userID==null){
 %>
 <script>
-	alert("·Î±×ÀÎ ÇÊ¿ä");
+	alert("ë¡œê·¸ì¸ í•„ìš”");
 	document.location.href="LoginJoin.jsp";
 </script>
 <%
@@ -49,23 +49,23 @@
 	String user = "scott";
 	String pw = "tiger";
 	ResultSet rs = null;
-	//¿À¶óÅ¬ µå¶óÀÌ¹ö Á¢¼Ó
+	//ì˜¤ë¼í´ ë“œë¼ì´ë²„ ì ‘ì†
 	Class.forName(driver);
-	//µğºñ¿¬°á
+	//ë””ë¹„ì—°ê²°
 	Connection conn = DriverManager.getConnection(url,user,pw);
-	//Á¢¼Ó¼º°ø
-	//out.println("list¿¡ »Ñ·ÁÁÙ µğºñ¿¬°á¼º°ø");
+	//ì ‘ì†ì„±ê³µ
+	//out.println("listì— ë¿Œë ¤ì¤„ ë””ë¹„ì—°ê²°ì„±ê³µ");
 	Statement stmt = conn.createStatement();
 	String sql = "select * from BBS order by BBSID desc";
 	rs = stmt.executeQuery(sql);
 %>
 
 <body>
- <!-- ¿©±â¼­ºÎÅÍ main¸Ş´º¹Ù -->
+ <!-- mainë©”ë‰´ -->
       <header>
        <div class="header_container">
         <div class="logo_container">
-         <a href="./main.jsp"><img src="img/logo1.png" width="220px" height="50" alt="=½½±â·Î¿î ÇĞ±³»ıÈ°"></a>
+         <a href="./main.jsp"><img src="img/logo1.png" width="220px" height="50" alt="=ìŠ¬ê¸°ë¡œìš´ í•™êµìƒí™œ"></a>
           </div> 
           <div class="nav_container" id="nav_menu"> 
           <div class="menu_container"> 
@@ -74,27 +74,27 @@
  <a class="menu_title">Study room</a>
  <ul class="menu_1_content">
   <li><a class="menu_index" href="write.jsp">My note</a></li> 
-  <li><a class="menu_index" href="white.jsp">¹é»ö ¼ÒÀ½</a></li>
+  <li><a class="menu_index" href="white.jsp">ë°±ìƒ‰ ì†ŒìŒ</a></li>
  </ul></li> 
  <li class="menu_2">
- <a class="menu_title" href="timetable.jsp">½Ã°£Ç¥</a></li> 
+ <a class="menu_title" href="timetable.jsp">ì‹œê°„í‘œ</a></li> 
 <li class="menu_3"> 
- <a class="menu_title">¼ºÀû°ü¸®</a>
+ <a class="menu_title">ì„±ì ê´€ë¦¬</a>
  <ul class="menu_3_content">
- <li><a class="menu_index" href="ScoreCalc.jsp">¼ºÀû ±âÀÔ</a></li> 
- <li><a class="menu_index" href="grademain.jsp">ÇĞÁ¡ °è»ê±â</a></li>
+ <li><a class="menu_index" href="ScoreCalc.jsp">ì„±ì  ê¸°ì…</a></li> 
+ <li><a class="menu_index" href="grademain.jsp">í•™ì  ê³„ì‚°ê¸°</a></li>
  </ul> </li>
  <li class="menu_4"> 
- <a class="menu_title">Á¤º¸°øÀ¯</a>
+ <a class="menu_title">ì •ë³´ê³µìœ </a>
  <ul class="menu_4_content">
- <li><a class="menu_index" href="board.jsp">ÀÚÀ¯ °Ô½ÃÆÇ</a></li> 
+ <li><a class="menu_index" href="board.jsp">ììœ  ê²Œì‹œíŒ</a></li> 
  </ul> </li>
   <li class="menu_5"> 
  <a class="menu_title">About us</a>
  <ul class="menu_5_content">
- <li><a class="menu_index" href="Team.jsp">ÆÀ ¼Ò°³</a></li> 
- <li><a class="menu_index" href="Organization.jsp">Á¶Á÷µµ</a></li>
- <li><a class="menu_index" href="Tel.jsp">¿¬¶ôÃ³</a></li>
+ <li><a class="menu_index" href="Team.jsp">íŒ€ ì†Œê°œ</a></li> 
+ <li><a class="menu_index" href="Organization.jsp">ì¡°ì§ë„</a></li>
+ <li><a class="menu_index" href="Tel.jsp">ì—°ë½ì²˜</a></li>
  </ul> 
  </li> 
  </ul> 
@@ -109,7 +109,7 @@
 %> 
   <ul class="login">
    		<li class="menu_login">
-   			<a class="menu_title" href="LoginJoin.jsp">·Î±×ÀÎ&nbsp;&nbsp;<%=userID %></a>
+   			<a class="menu_title" href="LoginJoin.jsp">ë¡œê·¸ì¸&nbsp;&nbsp;<%=userID %></a>
   		</li> 
    </ul> 
    <%
@@ -120,7 +120,7 @@
 %> 
   <ul class="login">
    		<li class="menu_login">
-   			<a class="menu_title" href="LoginJoin.jsp">·Î±×ÀÎ</a>
+   			<a class="menu_title" href="LoginJoin.jsp">ë¡œê·¸ì¸</a>
   		</li> 
    </ul> 
    <%
@@ -130,17 +130,17 @@
    </div> 
    </div> 
    </header> 
-<!-- ¿©±â±îÁö main¸Ş´º¹Ù -->
+<!-- ì—¬ê¸°ê¹Œì§€ mainë©”ë‰´ë°” -->
 	<div style="margin:20px;" align="center">
-	<h3>ÀÚÀ¯°Ô½ÃÆÇ</h3>
+	<h3>ììœ ê²Œì‹œíŒ</h3>
 	<table class="type11">
 	<thead>
         	<tr>
-        		<th width="10%" >¹øÈ£</th>
-       			<th width="35%" >Á¦¸ñ</th>
-       			<th width="25%" >ÀÛ¼ºÀÚ</th>
-       			<th width="20%" >ÀÛ¼ºÀÏ</th>
-       			<th width="10%" >Á¶È¸¼ö</th>
+        		<th width="10%" >ë²ˆí˜¸</th>
+       			<th width="35%" >ì œëª©</th>
+       			<th width="25%" >ì‘ì„±ì</th>
+       			<th width="20%" >ì‘ì„±ì¼</th>
+       			<th width="10%" >ì¡°íšŒìˆ˜</th>
         	</tr>
 	</thead>
 <%
@@ -160,27 +160,27 @@
 	</div>
 <%
 	}catch (Exception e){
-		out.println("list¿¡ »Ñ¸± µğºñ¿¬°á½ÇÆĞ");
+		out.println("listì— ë¿Œë¦´ ë””ë¹„ì—°ê²°ì‹¤íŒ¨");
 		out.println(e.getMessage());
 		e.printStackTrace();
 	}
 %>
 				<form action="boardwrite.jsp">
    				<div align="right" class="type">
-        		<input type='submit' value='±Û¾²±â'/> &nbsp; &nbsp;
+        		<input type='submit' value='ê¸€ì“°ê¸°'/> &nbsp; &nbsp;
         		</div>  
 				</form>          	
 			
-                <!-- °Ë»ö¿µ¿ª -->
+                <!-- ê²€ìƒ‰ì˜ì—­ -->
                 <div align="center">
                     <form action="searchtitle.jsp" method="post">     
                     <select name="opt" >
-                        <option value="1">Á¦¸ñ+³»¿ë</option>
-                        <option value="2">Á¦¸ñ</option>
-                        <option value="3">³»¿ë</option>
+                        <option value="1">ì œëª©+ë‚´ìš©</option>
+                        <option value="2">ì œëª©</option>
+                        <option value="3">ë‚´ìš©</option>
                     </select>
                     <input type="text" name="titlekey" >
-                    <input type='submit' value='°Ë»ö'>
+                    <input type='submit' value='ê²€ìƒ‰'>
                     </form>
                 </div>
 </body>
