@@ -2,9 +2,7 @@
 학교 커뮤니티 웹사이트 만들기 프로젝트
 
 # 데모영상
-<a href="https://youtu.be/ER-rZm9xmt4?si=occ7by0W3xPtYi2I">
-  <img src="https://github.com/holosolozo/school-life/assets/84116509/0ac8c7ed-fe43-45dc-8448-ee46c077e614">
-</a>
+[![데모영상|https://youtu.be/ER-rZm9xmt4](https://ifh.cc/g/Hc4mVC.jpg)](https://youtu.be/ER-rZm9xmt4)
 
 # 1. 프로젝트 개요
 ## 1.1 프로젝트 목표
