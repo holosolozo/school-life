@@ -1,5 +1,5 @@
 # school-life
-학교 커뮤니티 웹사이트 만들기 프로젝트
+학교 커뮤니티 & 온라인 교육용 웹사이트 만들기 프로젝트
 
 # 데모영상
 [![데모영상|https://youtu.be/ER-rZm9xmt4](https://ifh.cc/g/Hc4mVC.jpg)](https://youtu.be/ER-rZm9xmt4)
